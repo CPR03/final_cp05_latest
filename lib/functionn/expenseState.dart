@@ -1,6 +1,7 @@
 
 import 'package:final_cp05/functionn/expensessave.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 
 import '../theme/colors.dart';
@@ -71,6 +72,7 @@ class NewExpenseState extends State<NewExpense> {
             SizedBox(
               width: 300,
               child: TextFormField(
+                inputFormatters: [FilteringTextInputFormatter.digitsOnly],
                 decoration: InputDecoration(
                     label: Text("Name",style: TextStyle(color: Colors.black.withOpacity(0.3), fontWeight: FontWeight.bold),),
 
