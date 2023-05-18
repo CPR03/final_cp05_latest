@@ -2,6 +2,7 @@
 import 'package:final_cp05/functionn/expenseState.dart';
 import 'package:final_cp05/functionn/wantState.dart';
 import 'package:final_cp05/login.dart';
+import 'package:final_cp05/responsive.dart';
 import 'package:final_cp05/wants.dart';
 import 'package:flutter/material.dart';
 import 'package:final_cp05/theme/colors.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const MyLogin(),
+      home: const MyResponsive(),
     );
   }
 }
@@ -79,6 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     //Scaffold
     return Scaffold(
+
 
       //background color of the whole page
       backgroundColor: primary,

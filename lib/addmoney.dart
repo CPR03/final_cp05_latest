@@ -93,7 +93,7 @@ class AddMoneyState extends State<AddMoney> {
 
                     const SizedBox(height: 20,),
 
-                    Text("₱ $balance", style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: mainFontColor),),
+                    Text("₱$balance", style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: mainFontColor),),
 
                     const SizedBox(height: 15,),
 
